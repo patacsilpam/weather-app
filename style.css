@@ -18,6 +18,7 @@
 input{
     background: rgba(177, 146, 230, 0.13); 
     border: 0;
+    color: #ffffff;
 }
 input:focus{
     outline: none;
