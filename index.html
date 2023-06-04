@@ -15,33 +15,33 @@
             <div class="search-box d-flex flex-row text-white-50">
                 <i class="fa-sharp fa-solid fa-location-dot mt-2"></i>
                 <input type="text" class="w-100 mx-1 p-1 rounded-1" placeholder="Enter your location" id="location">
-                <button type="submit" id="btn-submit" class="border-0 bg-transparent">
+                <button type="button" id="btn-submit" class="border-0 bg-transparent">
                     <i class="fa-solid fa-magnifying-glass text-white-50"></i>
                 </button>
             </div>
             <!--Temperature-->
             <div class="temperature mt-5 gap-5">
-                <i class="fa-solid fa-cloud text-warning display-5"></i>
-                <p class="display-6">25°C</p>
+                <img src="images/sunny.png" class="img-temp" width="50" alt="temperature">
+                <p class="display-6 temperature">25°C</p>
             </div>
             <!--Weather Condition-->
             <div class="weather-condition row mt-5">
                 <div class="box col d-flex flex-column">
                     <small>UV INDEX</small>
-                    <strong>3</strong>
+                    <strong id="uv-index">3</strong>
                 </div>
                 <div class="box col col d-flex flex-column">
                     <small>WIND</small>
-                    <strong>0.2 km/h</strong>
+                    <strong id="wind">0.2 km/h</strong>
                 </div>
                 <div class="w-100"></div>
                 <div class="box col col d-flex flex-column">
                     <small>HUMIDITY</small>
-                    <strong>56%</strong>
+                    <strong id="humidity">56%</strong>
                 </div>
                 <div class="box col col d-flex flex-column">
                     <small>VISIBILITY</small>
-                    <strong>12 km</strong>
+                    <strong id="visibility">12 km</strong>
                 </div>
             </div>
         </div>
